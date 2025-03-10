@@ -10,8 +10,8 @@ int main() {
     float area_em_km1;
     int numero_de_pontos_turisticos1;
     float pib1;
-    float pib_per_capita1 = (float) populacao1 / pib1;
-    float Densidade_Populaciona1 = (float) populacao1 / area_em_km1;
+    float pib_per_capita1;
+    float Densidade_Populaciona1;
     
     //carta 2
     char estado2[3];
@@ -21,8 +21,8 @@ int main() {
     float area_em_km2;
     int numero_de_pontos_turisticos2;
     float pib2;
-    float pib_per_capita2 = (float) populacao2 / pib2;
-    float Densidade_Populaciona2 = (float) populacao2 / area_em_km2;
+    float pib_per_capita2;
+    float Densidade_Populaciona2;
     
     printf("inserir os dados de duas cartas do Super Trunfo.\nPara cada carta, o usuário deverá fornecer as seguintes informações.\n");
     printf("Estado: Uma Sigla Exempla 'PE' a 'RN' (representando um dos oito estados).\n");
@@ -76,6 +76,14 @@ int main() {
     
     printf("Digite o PIB per capita:\n");
     scanf("%f", &pib2);
+    
+    // lógica Carta 1
+    pib_per_capita1 = (float) populacao1 / pib1;
+    Densidade_Populaciona1 = (float) populacao1 / area_em_km1;
+
+    //lógica Carta 2
+    pib_per_capita2 = (float) populacao2 / pib2;
+    Densidade_Populaciona2 = (float) populacao2 / area_em_km2;
 
     // exibindo Carta 1
     printf("Carta 1\n");
