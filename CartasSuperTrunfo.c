@@ -78,11 +78,11 @@ int main() {
     scanf("%f", &pib2);
     
     // lógica Carta 1
-    pib_per_capita1 = (float) populacao1 / pib1;
+    pib_per_capita1 = (float) pib1 / populacao1;
     Densidade_Populaciona1 = (float) populacao1 / area_em_km1;
 
     //lógica Carta 2
-    pib_per_capita2 = (float) populacao2 / pib2;
+    pib_per_capita2 = (float) pib2 / populacao2;
     Densidade_Populaciona2 = (float) populacao2 / area_em_km2;
 
     // exibindo Carta 1
