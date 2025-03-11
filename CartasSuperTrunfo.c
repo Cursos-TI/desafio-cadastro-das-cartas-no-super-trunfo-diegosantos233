@@ -24,6 +24,7 @@ int main() {
     float pib_per_capita2;
     float Densidade_Populaciona2;
     
+    // Intrusão para a entrada de dados
     printf("inserir os dados de duas cartas do Super Trunfo.\nPara cada carta, o usuário deverá fornecer as seguintes informações.\n");
     printf("Estado: Uma Sigla Exempla 'PE' a 'RN' (representando um dos oito estados).\n");
     printf("Código da Carta: A letra do estado seguida de um número de 01 a 04 (ex: P01, R03).\n");
