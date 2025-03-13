@@ -141,11 +141,11 @@ int main() {
 
     printf("*Nome da Cidade: %s*\n", nome_da_cidade2);
 
-    printf("*População: %d* resultado da batalha(%d)\n", populacao2, resultado_pib_per_capita2);
+    printf("*População: %d* resultado da batalha(%d)\n", populacao2, resultado_populacao2);
 
     printf("*Área: %.2f km²* resultado da batalha(%d)\n", area_em_km2, resultado_area_em_km2);
 
-    printf("*%d Pontos Turísticos* resultado da batalha(%d)\n", numero_de_pontos_turisticos2, resultado_populacao2);
+    printf("*%d Pontos Turísticos* resultado da batalha(%d)\n", numero_de_pontos_turisticos2, resultado_numero_de_pontos_turisticos2);
 
     printf("*PIB: %.2f bilhões de reais* resultado da batalha(%d)\n", pib2, resultado_pib2);
 
