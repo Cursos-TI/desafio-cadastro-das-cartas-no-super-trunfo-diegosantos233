@@ -133,7 +133,7 @@ int main() {
     
     printf("*Densidade Populacional: %.2f hab/km²* resultado da batalha(%d)\n",Densidade_Populaciona1, resultado_Densidade_Populaciona1);
     
-    printf("*Super Poder: %.2f hab/km²*resultado da batalha(%d)\n",Super_Poder1, resultado_Super_Poder1);
+    printf("*Super Poder: %.2f* resultado da batalha(%d)\n",Super_Poder1, resultado_Super_Poder1);
 
     
     // exibindo Carta 2
@@ -155,9 +155,9 @@ int main() {
 
     printf("*PIB per Capita: %.2f reais* resultado da batalha(%d)\n", pib_per_capita2, resultado_pib_per_capita2);
     
-    printf("*Densidade Populacional: %.2f hab/km²*resultado da batalha(%d)\n",Densidade_Populaciona2, resultado_Densidade_Populaciona2);
+    printf("*Densidade Populacional: %.2f hab/km²* resultado da batalha(%d)\n",Densidade_Populaciona2, resultado_Densidade_Populaciona2);
 
-    printf("*Super Poder: %.2f hab/km²*resultado da batalha(%d)\n",Super_Poder2, resultado_Super_Poder2);
+    printf("*Super Poder: %.2f* resultado da batalha(%d)\n",Super_Poder2, resultado_Super_Poder2);
 
     return 0;
 }
