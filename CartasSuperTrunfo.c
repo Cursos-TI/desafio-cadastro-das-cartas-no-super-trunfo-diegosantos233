@@ -55,7 +55,7 @@ int main() {
     printf("Digite o Número de Pontos Turísticos:\n");
     scanf("%d", &numero_de_pontos_turisticos1);
 
-    printf("Digite o PIB per capita:\n");
+    printf("Digite o PIB:\n");
     scanf("%f", &pib1);
 
     // cadastro carta 2
@@ -77,7 +77,7 @@ int main() {
     printf("Digite o Número de Pontos Turísticos:\n");
     scanf("%d", &numero_de_pontos_turisticos2);
     
-    printf("Digite o PIB per capita:\n");
+    printf("Digite o PIB:\n");
     scanf("%f", &pib2);
     
     // lógica Carta 1
@@ -133,7 +133,7 @@ int main() {
 
     
     // exibindo Carta 2
-    printf("Carta 2\n");
+    printf("******Carta 2\n******");
 
     printf("*Estado: %s*\n", estado2);
 
