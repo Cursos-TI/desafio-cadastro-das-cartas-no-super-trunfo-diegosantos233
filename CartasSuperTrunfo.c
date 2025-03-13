@@ -101,7 +101,7 @@ int main() {
     short int resultado_pib1 = pib1 > pib2;
     short int resultado_pib_per_capita1 = pib_per_capita1 > pib_per_capita2;
     short int resultado_Densidade_Populaciona1 = Densidade_Populaciona1 < Densidade_Populaciona2;
-    short int Super_Poder1 = Super_Poder1 > Super_Poder2;
+    short int resultado_Super_Poder1 = Super_Poder1 > Super_Poder2;
 
     // resultado da batalha carta 2
     short int resultado_populacao2 = populacao2 > populacao1;
@@ -110,7 +110,7 @@ int main() {
     short int resultado_pib2 = pib2 > pib1;
     short int resultado_pib_per_capita2 = pib_per_capita2 > pib_per_capita1;
     short int resultado_Densidade_Populaciona2 = Densidade_Populaciona2 < Densidade_Populaciona1;
-    short int Super_Poder2 = Super_Poder2 > Super_Poder1;
+    short int resultado_Super_Poder2 = Super_Poder2 > Super_Poder1;
     
     // exibindo Carta 1
     printf("*******Carta 1*****\n");
@@ -132,6 +132,8 @@ int main() {
     printf("*PIB per Capita: %.2f reais* resultado da batalha(%d)\n", pib_per_capita1, resultado_pib_per_capita1);
     
     printf("*Densidade Populacional: %.2f hab/km²* resultado da batalha(%d)\n",Densidade_Populaciona1, resultado_Densidade_Populaciona1);
+    
+    printf("*Super Poder: %.2f hab/km²*resultado da batalha(%d)\n",Super_Poder1, resultado_Super_Poder1);
 
     
     // exibindo Carta 2
@@ -155,7 +157,7 @@ int main() {
     
     printf("*Densidade Populacional: %.2f hab/km²*resultado da batalha(%d)\n",Densidade_Populaciona2, resultado_Densidade_Populaciona2);
 
-    printf("*Super Poder: %.2f hab/km²*resultado da batalha(%d)\n",Super_Poder2, resultado_Densidade_Populaciona2);
+    printf("*Super Poder: %.2f hab/km²*resultado da batalha(%d)\n",Super_Poder2, resultado_Super_Poder2);
 
     return 0;
 }
