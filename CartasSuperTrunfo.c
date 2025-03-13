@@ -133,7 +133,7 @@ int main() {
 
     
     // exibindo Carta 2
-    printf("******Carta 2\n******");
+    printf("******Carta2******\n");
 
     printf("*Estado: %s*\n", estado2);
 
