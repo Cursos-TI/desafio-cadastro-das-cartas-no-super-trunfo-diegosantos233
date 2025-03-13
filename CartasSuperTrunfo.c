@@ -89,20 +89,20 @@ int main() {
     Densidade_Populaciona2 = (float) populacao2 / area_em_km2;
 
     // resultado da batalha carta 1
-    int resultado_populacao = populacao1 > populacao2;
-    float resultado_area_em_km = area_em_km1 > area_em_km2;
-    int resultado_numero_de_pontos_turisticos = numero_de_pontos_turisticos1 > numero_de_pontos_turisticos2;
-    float resultado_pib = pib1 > pib2;
-    float resultado_pib_per_capita = pib_per_capita1 > pib_per_capita2;
-    float resultado_Densidade_Populaciona = Densidade_Populaciona1 > Densidade_Populaciona2;
+    int resultado_populacao1 = populacao1 > populacao2;
+    float resultado_area_em_km1 = area_em_km1 > area_em_km2;
+    int resultado_numero_de_pontos_turisticos1 = numero_de_pontos_turisticos1 > numero_de_pontos_turisticos2;
+    float resultado_pib1 = pib1 > pib2;
+    float resultado_pib_per_capita1 = pib_per_capita1 > pib_per_capita2;
+    float resultado_Densidade_Populaciona1 = Densidade_Populaciona1 > Densidade_Populaciona2;
 
     // resultado da batalha carta 2
-    int resultado_populacao = populacao2 > populacao1;
-    float resultado_area_em_km = area_em_km2 > area_em_km1;
-    int resultado_numero_de_pontos_turisticos = numero_de_pontos_turisticos2 > numero_de_pontos_turisticos1;
-    float resultado_pib = pib2 > pib1;
-    float resultado_pib_per_capita = pib_per_capita2 > pib_per_capita1;
-    float resultado_Densidade_Populaciona = Densidade_Populaciona2 > Densidade_Populaciona1;
+    int resultado_populacao2 = populacao2 > populacao1;
+    float resultado_area_em_km2 = area_em_km2 > area_em_km1;
+    int resultado_numero_de_pontos_turisticos2 = numero_de_pontos_turisticos2 > numero_de_pontos_turisticos1;
+    float resultado_pib2 = pib2 > pib1;
+    float resultado_pib_per_capita2 = pib_per_capita2 > pib_per_capita1;
+    float resultado_Densidade_Populaciona2 = Densidade_Populaciona2 > Densidade_Populaciona1;
     
     // Super Poder carta 1
     Super_Poder1 = populacao1 + area_em_km1 + numero_de_pontos_turisticos1 + pib1 + pib_per_capita1;
@@ -119,17 +119,17 @@ int main() {
 
     printf("*Nome da Cidade: %s*\n", nome_da_cidade1);
 
-    printf("*População: %d* resultado da batalha()\n", populacao1);
+    printf("*População: %d* resultado da batalha(%d)\n", populacao1, resultado_populacao1);
 
-    printf("*Área: %.2f km²* resultado da batalha()\n", area_em_km1);
+    printf("*Área: %.2f km²* resultado da batalha(%.2f)\n", area_em_km1, resultado_area_em_km1);
 
-    printf("*%d Pontos Turísticos* resultado da batalha()\n", numero_de_pontos_turisticos1);
+    printf("*%d Pontos Turísticos* resultado da batalha(%d)\n", numero_de_pontos_turisticos1, resultado_numero_de_pontos_turisticos1);
 
-    printf("*PIB: %.2f bilhões de reais* resultado da batalha()\n", pib1);
+    printf("*PIB: %.2f bilhões de reais* resultado da batalha(%.2f)\n", pib1, resultado_pib1);
     
-    printf("*PIB per Capita: %.2f reais* resultado da batalha()\n", pib_per_capita1);
+    printf("*PIB per Capita: %.2f reais* resultado da batalha(%.2f)\n", pib_per_capita1, resultado_pib_per_capita1);
     
-    printf("*Densidade Populacional: %.2f hab/km²* resultado da batalha()\n",Densidade_Populaciona1);
+    printf("*Densidade Populacional: %.2f hab/km²* resultado da batalha(%.2f)\n",Densidade_Populaciona1);
 
     
     // exibindo Carta 2
@@ -141,17 +141,17 @@ int main() {
 
     printf("*Nome da Cidade: %s*\n", nome_da_cidade2);
 
-    printf("*População: %d* resultado da batalha()\n", populacao2);
+    printf("*População: %d* resultado da batalha(%d)\n", populacao2, resultado_pib_per_capita2);
 
-    printf("*Área: %.2f km²* resultado da batalha()\n", area_em_km2);
+    printf("*Área: %.2f km²* resultado da batalha(%.2f)\n", area_em_km2, resultado_area_em_km2);
 
-    printf("*%d Pontos Turísticos* resultado da batalha()\n", numero_de_pontos_turisticos2);
+    printf("*%d Pontos Turísticos* resultado da batalha(%d)\n", numero_de_pontos_turisticos2, resultado_populacao2);
 
-    printf("*PIB: %.2f bilhões de reais* resultado da batalha()\n", pib2);
+    printf("*PIB: %.2f bilhões de reais* resultado da batalha(%.2f)\n", pib2, resultado_pib2);
 
-    printf("*PIB per Capita: %.2f reais* resultado da batalha()\n", pib_per_capita2);
+    printf("*PIB per Capita: %.2f reais* resultado da batalha(%.2f)\n", pib_per_capita2, resultado_pib_per_capita2);
     
-    printf("*Densidade Populacional: %.2f hab/km²*resultado da batalha()\n",Densidade_Populaciona2);
+    printf("*Densidade Populacional: %.2f hab/km²*resultado da batalha(%.2f)\n",Densidade_Populaciona2);
 
     return 0;
 }
