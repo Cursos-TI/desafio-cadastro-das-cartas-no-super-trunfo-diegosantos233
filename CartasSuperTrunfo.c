@@ -94,7 +94,7 @@ int main() {
     // Super Poder carta 2
     Super_Poder2 = populacao2 + area_em_km2 + numero_de_pontos_turisticos2 + pib2 + pib_per_capita2 + Densidade_Populaciona2;
 
-    // resultado da batalha carta 2
+    // resultado da batalha carta
     short int resultado_populacao2 = populacao2 > populacao1;
     short int resultado_area_em_km2 = area_em_km2 > area_em_km1;
     short int resultado_numero_de_pontos_turisticos2 = numero_de_pontos_turisticos2 > numero_de_pontos_turisticos1;
