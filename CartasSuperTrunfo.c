@@ -103,6 +103,11 @@ int main() {
     short int resultado_Densidade_Populaciona = Densidade_Populaciona1 < Densidade_Populaciona2;
     short int resultado_Super_Poder = Super_Poder1 > Super_Poder2;
     
+    // Explicação do resultado da batalha
+    
+    printf("Entenda como vai funcionar a batalha das cartas\n");
+    printf("Resultado da batalha (1 representa que a primeira Carta vence e 0 representa que a segunda Carta vence).\n");
+    
     // exibindo Carta 1
     printf("*******Carta 1*****\n");
 
