@@ -6,7 +6,7 @@ int main() {
     char estado1[3] = "A";
     char codigo_da_carta1[30] = "A02";
     char nome_da_cidade1[30] = "AS";
-    int populacao1 = 10;
+    unsigned long int populacao1 = 10;
     float area_em_km1 = 10;
     int numero_de_pontos_turisticos1 = 10;
     float pib1 = 10;
@@ -18,7 +18,7 @@ int main() {
     char estado2[3] = "A";
     char codigo_da_carta2[30] = "A02";
     char nome_da_cidade2[30] = "AS";
-    int populacao2 = 10;
+    unsigned long int populacao2 = 10;
     float area_em_km2 = 10;
     int numero_de_pontos_turisticos2 = 10;
     float pib2 = 10;
@@ -47,7 +47,7 @@ int main() {
     scanf("%s", nome_da_cidade1);
     
     printf("Digite a População:\n");
-    scanf("%d", &populacao1);
+    scanf("%lu", &populacao1);
    
     printf("Digite a Área em KM²:\n");
     scanf("%f", &area_em_km1);
@@ -69,7 +69,7 @@ int main() {
     scanf("%s", nome_da_cidade2);
     
     printf("Digite a População:\n");
-    scanf("%d", &populacao2);
+    scanf("%lu", &populacao2);
     
     printf("Digite a Área em KM²:\n");
     scanf("%f", &area_em_km2);
@@ -80,14 +80,14 @@ int main() {
     printf("Digite o PIB:\n");
     scanf("%f", &pib2);
     
-    // lógica Carta 1
+    // calculando atributo Carta 1
     pib_per_capita1 = (float) pib1 / populacao1;
     Densidade_Populaciona1 = (float) populacao1 / area_em_km1;
 
     // Super Poder carta 1
     Super_Poder1 = populacao1 + area_em_km1 + numero_de_pontos_turisticos1 + pib1 + pib_per_capita1 + Densidade_Populaciona1;
 
-    //lógica Carta 2
+    // calculando atributo Carta 2
     pib_per_capita2 = (float) pib2 / populacao2;
     Densidade_Populaciona2 = (float) populacao2 / area_em_km2;
 
@@ -121,7 +121,7 @@ int main() {
 
     printf("*Nome da Cidade: %s*\n", nome_da_cidade1);
 
-    printf("*População: %d* resultado da batalha(%d)\n", populacao1, resultado_populacao1);
+    printf("*População: %lu* resultado da batalha(%d)\n", populacao1, resultado_populacao1);
 
     printf("*Área: %.2f km²* resultado da batalha(%d)\n", area_em_km1, resultado_area_em_km1);
 
@@ -145,7 +145,7 @@ int main() {
 
     printf("*Nome da Cidade: %s*\n", nome_da_cidade2);
 
-    printf("*População: %d* resultado da batalha(%d)\n", populacao2, resultado_populacao2);
+    printf("*População: %lu* resultado da batalha(%d)\n", populacao2, resultado_populacao2);
 
     printf("*Área: %.2f km²* resultado da batalha(%d)\n", area_em_km2, resultado_area_em_km2);
 
