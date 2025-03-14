@@ -37,6 +37,7 @@ int main() {
     printf("PIB: O Produto Interno Bruto da cidade.\n");
 
     // cadastro carta 1
+    printf("Agora vamos cadastrar a carta. 1\n");
     printf("Digite a sigla do Estado:\n");
     scanf("%s", estado1);
     
@@ -59,6 +60,7 @@ int main() {
     scanf("%f", &pib1);
 
     // cadastro carta 2
+    printf("Agora vamos cadastrar a carta. 2\n");
     printf("Digite a sigla do Estado:\n");
     scanf("%s", estado2);
     
