@@ -143,6 +143,8 @@ int main() {
 
     printf("*Super Poder: %.2f*\n",Super_Poder2);
 
+    // resultado da batalha
+    
     if (populacao1 > populacao2){
         printf(" No atributos População a carta %s, venceu a carta %s\n",nome_da_cidade1, nome_da_cidade2);
     }else{
