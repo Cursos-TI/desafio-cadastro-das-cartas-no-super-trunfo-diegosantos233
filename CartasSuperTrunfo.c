@@ -97,13 +97,13 @@ int main() {
     Super_Poder2 = populacao2 + area_em_km2 + numero_de_pontos_turisticos2 + pib2 + pib_per_capita2 + Densidade_Populaciona2;
     
      // resultado da batalha
-      int resultado_populacao = populacao1 > populacao2;
-      int resultado_area = area_em_km1 > area_em_km2;
-      int resultado_pontos_turisticos = numero_de_pontos_turisticos1 > numero_de_pontos_turisticos2;
-      int resultado_pib = pib1 > pib2;
-      int resultado_pib_per_capita = pib_per_capita1 > pib_per_capita2;
-      int resultado_Densidade_Populaciona = Densidade_Populaciona1 < Densidade_Populaciona2;
-      int resultado_Super_Poder = Super_Poder1 > Super_Poder2;
+     short int resultado_populacao = populacao1 > populacao2;
+     short int resultado_area = area_em_km1 > area_em_km2;
+     short int resultado_pontos_turisticos = numero_de_pontos_turisticos1 > numero_de_pontos_turisticos2;
+     short int resultado_pib = pib1 > pib2;
+     short int resultado_pib_per_capita = pib_per_capita1 > pib_per_capita2;
+     short int resultado_Densidade_Populaciona = Densidade_Populaciona1 < Densidade_Populaciona2;
+     short int resultado_Super_Poder = Super_Poder1 > Super_Poder2;
 
     // explicação do resultado da batalha
     
