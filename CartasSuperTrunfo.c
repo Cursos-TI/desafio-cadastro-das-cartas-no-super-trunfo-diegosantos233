@@ -144,44 +144,44 @@ int main() {
     printf("*Super Poder: %.2f*\n",Super_Poder2);
 
     if (populacao1 > populacao2){
-        printf(" No atributos População a carta %s, venceu a carta %s",estado1, estado2);
+        printf(" No atributos População a carta %s, venceu a carta %s\n",nome_da_cidade1, nome_da_cidade2);
     }else{
-        printf(" No atributos População a carta %s, venceu a carta %s",estado2, estado1);
+        printf(" No atributos População a carta %s, venceu a carta %s\n",nome_da_cidade2, nome_da_cidade1);
     }
 
     if (area_em_km1 > area_em_km2){
-        printf(" No atributos Área a carta %s, venceu a carta %s",estado1, estado2);
+        printf(" No atributos Área a carta %s, venceu a carta %s\n",nome_da_cidade1, nome_da_cidade2);
     }else{
-        printf(" No atributos Área a carta %s, venceu a carta %s",estado2, estado1);
+        printf(" No atributos Área a carta %s, venceu a carta %s\n",nome_da_cidade2, nome_da_cidade1);
     }
 
     if (numero_de_pontos_turisticos1 > numero_de_pontos_turisticos2){
-        printf(" No atributos Pontos Turísticos a carta %s, venceu a carta %s",estado1, estado2);
+        printf(" No atributos Pontos Turísticos a carta %s, venceu a carta %s\n",nome_da_cidade1, nome_da_cidade2);
     }else{
-        printf(" No atributos Pontos Turísticos a carta %s, venceu a carta %s",estado2, estado1);
+        printf(" No atributos Pontos Turísticos a carta %s, venceu a carta %s\n",nome_da_cidade2, nome_da_cidade1);
     }
 
     if (pib1 > pib2){
-        printf(" No atributos PIB a carta %s, venceu a carta %s",estado1, estado2);
+        printf(" No atributos PIB a carta %s, venceu a carta %s\n",nome_da_cidade1, nome_da_cidade2);
     }else{
-        printf(" No atributos PIB a carta %s, venceu a carta %s",estado2, estado1);
+        printf(" No atributos PIB a carta %s, venceu a carta %s\n",nome_da_cidade2, nome_da_cidade1);
     }
     if (pib_per_capita1 > pib_per_capita2 ){
-        printf(" No atributos PIB per Capita a carta %s, venceu a carta %s",estado1, estado2);
+        printf(" No atributos PIB per Capita a carta %s, venceu a carta %s\n",nome_da_cidade1, nome_da_cidade2);
     }else{
-        printf(" No atributos PIB per Capita a carta %s, venceu a carta %s",estado2, estado1);
+        printf(" No atributos PIB per Capita a carta %s, venceu a carta %s\n",nome_da_cidade2, nome_da_cidade1);
     }
 
     if (Densidade_Populaciona1 < Densidade_Populaciona2){
-        printf(" No atributos Densidade Populacional a carta %s, venceu a carta %s",estado1, estado2);
+        printf(" No atributos Densidade Populacional a carta %s, venceu a carta %s\n",nome_da_cidade1, nome_da_cidade2);
     }else{
-        printf(" No atributos Densidade Populacional a carta %s, venceu a carta %s",estado2, estado1);
+        printf(" No atributos Densidade Populacional a carta %s, venceu a carta %s\n",nome_da_cidade2, nome_da_cidade1);
     }
 
     if (Super_Poder1 > Super_Poder2){
-        printf(" No atributos Super Poder a carta %s, venceu a carta %s",estado1, estado2);
+        printf(" No atributos Super Poder a carta %s, venceu a carta %s\n",nome_da_cidade1, nome_da_cidade2);
     }else{
-        printf(" No atributos Super Poder a carta %s, venceu a carta %s",estado2, estado1);
+        printf(" No atributos Super Poder a carta %s, venceu a carta %s\n",nome_da_cidade2, nome_da_cidade1);
     }
     
     
